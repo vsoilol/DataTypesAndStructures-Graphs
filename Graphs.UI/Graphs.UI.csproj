@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ConsoleTools\ConsoleTools.csproj" />
+      <ProjectReference Include="..\Graphs.Structure\Graphs.Structure.csproj" />
+    </ItemGroup>
+
 </Project>
