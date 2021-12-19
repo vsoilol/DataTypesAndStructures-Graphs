@@ -5,12 +5,12 @@ namespace Graphs.Structure
     public class Node
     {
         /// <summary>
-        /// Name of the vertex
+        /// Значение узла
         /// </summary>
         public int Value { get; }
 
         /// <summary>
-        /// All the edges connected to the given vertex
+        /// Все узлы котороые связаны с данным узлом
         /// </summary>
         public List<Node> Edges { get; }
 
